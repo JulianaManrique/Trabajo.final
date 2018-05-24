@@ -1,0 +1,28 @@
+body {
+  background: pink;
+  color: grey;
+}
+
+input,
+button {
+  font-size:0.5em;
+}
+
+#Respuesta {
+  font-size: 3em;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 20px;
+}
+
+img {
+  margin: auto;
+  position: relative;
+  border-radius: 1px;
+  width: 10%;
+  transition: all 1s;
+  cursor: pointer;
+}
+img:hover {
+  transform: rotate(720deg);
+}
